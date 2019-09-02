@@ -9,8 +9,7 @@
 
 header{
   /*background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../1.jpg);*/
-  height: 7vh;
-  border-bottom: 2px solid rgba(0,0,0,0.5);
+  height: 7%;
 }
 body::after{
   position: center;
@@ -28,16 +27,16 @@ mainTwo{
   align-items: center;
   min-height: 100vh;
   background:#fff;
-  overflow: hidden;
+  overflow: scroll;
 }
 mainthree{
-  overflow: hidden;
+  overflow: scroll;
 }
 mainfour{
-  overflow: hidden;
+  overflow: scroll;
 }
 mainfive{
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .internships h1{
@@ -128,12 +127,14 @@ main{
   width: 100%;
   height: 93vh;
   margin: 0;
+  overflow:hidden;
 }
 .container .column{
   width: 25%;
   height: 100%;
   float: left;
   border-right: 2px solid rgba(0,0,0,0.5);
+  border-top: 2px solid rgba(0,0,0,0.5);
   box-sizing: border-box;
   z-index:1;
 }
@@ -146,7 +147,7 @@ main{
 }
 .container .column .content h1{
   position: absolute;
-  top: 50%;;
+  top: 50%;
   transform: translateY(-50%);
   width: 100%;
   background: rgba(0,0,0,0.1);
@@ -163,7 +164,7 @@ main{
   position: absolute;
   top: 50%;
   width:100%;
-  height:32%;
+  height:auto;
   transform: translateY(100%);
   box-sizing: border-box;
   background: rgba(255,255,255,1);
@@ -335,7 +336,7 @@ ul.header li.active a{
   font-size:1.5em;
 }
 .wholemainthree{
-  overflow: hidden;
+  overflow: scroll;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../home/1.jpg");
 }
 .alignProj{
@@ -344,9 +345,10 @@ ul.header li.active a{
   grid-column-gap: 15%;
   grid-row-gap: 10%;
   padding-right:15%;
-  padding-left:15%;
+  padding-left:10%;
   max-width: 100%;
-  margin: 50px;
+  margin-left: 2%;
+  padding-bottom: 3%;
 }
 
 .achievementsdiv{
@@ -361,7 +363,8 @@ ul.achievements{
   align-items: center;
   justify-content: center;
   width: 90%;
-  margin-left: 100px;
+  margin-left: 5%;
+  margin-right: 3%;
   padding: 10px;
   box-sizing:border-box;
   background: rgba(0,0,0,0.1);
@@ -420,8 +423,8 @@ ul.achievements li:hover{
 }
 .mobile{
   position: relative;
-  width: 270px;
-  height: 480px;
+  width: 290px;
+  height: 500px;
   background: #020c17;
 }
 .top{
@@ -548,7 +551,10 @@ h2 span{
   padding-bottom: 10px;
   cursor:pointer;
   transition:0.5s;
-  //opacity:0;
+  opacity:0;
+}
+.screen.active ul li{
+  opacity: 1;
 }
 .screen.active ul li .fa{
   transition: 0.5s;
@@ -625,4 +631,9 @@ h2 span{
   color: #0000ff;
   font-weight: bold;
 
+}
+
+@media screen and (max-width:959px) {
+
+  }
 }
