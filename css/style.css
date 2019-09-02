@@ -17,7 +17,7 @@ body::after{
   width: 0;
   height: 0;
   z-index: -1;
-  content: url(../home/1.jpg) url(../home/2.jpg) url(../home/3.jpg) url(../home/4.jpg) url(../home/5.jpg) url(../home/6.jpg) url(../home/8.jpg) url(../home/shakLogo1.png) url(../intern/hasura.png) url(../intern/idea.png) url(../intern/mgr.jpg) url(../intern/spi.png) url(../intern/tees,jpg) url(../proj/proj5.jpg) url(../proj/proj22.jpg) url(../proj/proj33.jpg) url(../proj/proj44.png);
+  content: url(../home/1.jpg) url(../home/2-min.jpg) url(../home/3-min.jpg) url(../home/4-min.jpg) url(../home/5-min.jpg) url(../home/6.jpg) url(../home/8-min.jpg) url(../home/shakLogo1.png) url(../intern/hasura.png) url(../intern/idea.png) url(../intern/mgr.jpg) url(../intern/spi.png) url(../intern/tees-min.jpg) url(../proj/proj5-min.jpg) url(../proj/proj22.jpg) url(../proj/proj33.jpg) url(../proj/proj44.png);
   display:none;
 }
 mainTwo{
@@ -206,28 +206,28 @@ main{
   z-index: -1;
 }
 .container .column.active .bg.bg1{
-  background: url(../home/8.jpg);
+  background: url(../home/8-min.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   transition: 1s;
 }
 .container .column.active .bg.bg2{
-  background: url(../home/2.jpg);
+  background: url(../home/2-min.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   transition: 1s;
 }
 .container .column.active .bg.bg3{
-  background: url(../home/3.jpg);
+  background: url(../home/3-min.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   transition: 1s;
 }
 .container .column.active .bg.bg4{
-  background: url(../home/4.jpg);
+  background: url(../home/4-min.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -414,7 +414,7 @@ ul.achievements li:hover{
   height: 100vh;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
-  background: url(../home/5.jpg);
+  background: url(../home/5-min.jpg);
   background-size: cover;
 
 }
