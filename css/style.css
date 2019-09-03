@@ -179,17 +179,17 @@ main{
 .container .column .content .box h2{
   margin: 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 2em;
   color: #fff;
 }
 
 .container .column .content .box p{
   color: #fff;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 .container .column .content .box a{
   color: #fff;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .container .column .bg{
