@@ -349,6 +349,15 @@ max-width: 80% */
   font-style: italic;
   font-family: Maitree;
 }
+.project h2{
+  font-size: 2em;
+  font-style: italic;
+  font-family: Maitree;
+}
+.project p{
+  font-size: 1em;
+  font-family: Maitree;
+}
 .alignProj{
   display: grid;
   grid-template-columns: repeat(2,1fr);
