@@ -223,7 +223,7 @@ main{
   transition: 1s;
 }
 .container .column.active .bg.bg4{
-  background: url(../home/4-min.jpg);
+  background: url(../home/4-min.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -247,13 +247,10 @@ ul.header li a{
 }
 
 ul.header li a:hover{
-  background-color: #fff;
+  background-color: #49e819;
   color: #000;
 }
-ul.header li.active a{
-  background-color: #fff;
-  color: #000;
-}
+
 .logo img{
   float:left;
   padding-top: 2px;
@@ -373,7 +370,7 @@ max-width: 80% */
 .achievementsdiv{
   margin:0;
   overflow: hidden;
-  background-color: rgba(255,68,114,0.9);
+  background-color: rgb(0, 0, 0);
   height: 100%;
 }
 
@@ -422,7 +419,14 @@ ul.achievements li{
 } */
 ul.achievements li:hover{
   transform:scale(1.03);
-  background: rgba(255,68,114,0.9);
+  background: #69e045;
+  
+}
+
+ul.achievements li span:hover{
+  color: #000;
+  font-weight: bold;
+  
 }
 .resumepage{
   background-color: rgba(0, 0, 0, 0.5);
@@ -464,7 +468,7 @@ ul.achievements li:hover{
   width:4px;
   height:4px;
   background: #ccc;
-  border: 2px solid:#aaa;
+  border: 2px solid #aaa;
   border-radius: 50%;
   box-shadow: 0 0 0 1px #999;
 }
@@ -477,7 +481,7 @@ ul.achievements li:hover{
   width:40px;
   height:3px;
   background: #333;
-  border: 2px solid:#aaa;
+  border: 2px solid #aaa;
   border-radius: 3px;
 }
 .bottom{
@@ -673,4 +677,43 @@ h2 span{
     padding-left: 2%;
   }
 
+}
+
+.button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flash {
+  color: #eeeeee;
+  display: inline-block;
+  text-align: center;
+  
+}
+@keyframes glowing {
+  0% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+  50% {
+    background-color: #49e819;
+    box-shadow: 0 0 20px #49e819;
+  }
+  100% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+}
+.flash {
+  animation: glowing 1300ms infinite;
 }
