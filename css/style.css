@@ -9,8 +9,13 @@
 
 header{
   /*background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../1.jpg);*/
-  height: 7%;
+  height: 7.8%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
 }
+
 body::after{
   position: center;
   width: 0;
@@ -19,6 +24,7 @@ body::after{
   content: url(../home/1.jpg) url(../home/2-min.jpg) url(../home/3-min.png) url(../home/4-min.jpg) url(../home/5-min.jpg) url(../home/6.jpg) url(../home/8-min.jpg) url(../home/shakLogo1.png) url(../intern/hasura.png) url(../intern/mgr.jpg) url(../intern/spi.png) url(../intern/tees-min.jpg) url(../proj/proj5-min.jpg) url(../proj/proj22.jpg) url(../proj/proj33.jpg) url(../proj/proj44.png);
   display:none;
 }
+
 mainTwo{
   margin:0;
   padding:0;
@@ -112,17 +118,11 @@ input:checked ~ .details{
   color:#fff;
 }
 
-
-main{
-  padding: 0;
-  margin: 0;
-  font-family: Maitree;
-}
 .container{
+  padding-top: 3.5%;
   width: 100%;
-  height: 93vh;
+  height: 94vh;
   margin: 0;
-  overflow:hidden;
 }
 .container .column{
   width: 25%;
@@ -133,9 +133,11 @@ main{
   box-sizing: border-box;
   z-index:1;
 }
+
 .container .column: last-child{
   border-right: none;
 }
+
 .container .column .content{
   position: relative;
   height: 100%;
@@ -232,7 +234,7 @@ main{
 ul.header{
   float: right;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 1%;
 }
 
 ul.header li{
@@ -253,8 +255,8 @@ ul.header li a:hover{
 
 .logo img{
   float:left;
-  padding-top: 2px;
-  width: 180px;
+  padding-top: 0.35%;
+  width: 130px;
   height: auto;
 }
 
@@ -685,7 +687,7 @@ h2 span{
   color: #000;
   cursor: pointer;
   display: inline-block;
-  margin-left: 15px;
+  margin-right: 23px;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
