@@ -26,21 +26,18 @@ body::after{
 }
 
 mainTwo{
-  margin:0;
-  padding:0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background:#fff;
-  overflow: scroll;
+  height: 250vh;
 }
 
 .internships h1{
   color: #000;
   font-size: 3em;
   font-style: italic;
-  padding-right: 15%;
+  padding-left: 35%;
+  padding-top: 13%;
 }
 
 .card{
@@ -281,22 +278,16 @@ ul.header li a:hover{
 
 .align{
   display: grid;
-  grid-template-columns: repeat(3,40%);
-  grid-column-gap: 15%;
+  grid-template-columns: repeat(3,50%);
+  grid-column-gap: 25%;
   grid-row-gap: 10%;
-  margin-left: 5%;
-  margin-right: 20%;
-  padding-right: 15%;
-  margin-top: 15%;
+  margin-left: -5%;
+  margin-right: 30%;
+  padding-right: 20%;
+  margin-top: 10%;
   margin-bottom: 15%;
 }
-/* grid-column-gap: 15%;
-grid-row-gap: 15%;
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 10%;
-margin-bottom: 20%;
-max-width: 80% */
+
 .textOverImage{
   position: relative;
   width:23em;
@@ -308,10 +299,12 @@ max-width: 80% */
   font-size: 20px;
   transition:0.5s;
 }
+
 .textOverImage:hover{
   background-size: 110%;
   font-size: 20px;
 }
+
 .textOverImage:after{
   position: absolute;
   top: 91%;
@@ -328,35 +321,42 @@ max-width: 80% */
   font-size: 20px;
 
 }
+
 .textOverImage:hover:after{
   top:0;
   padding: 8px;
   background-color: rgba(0,0,0,0.7);
   font-size: 20px;
 }
+
 .textOverImage:first-line{
   color:#fff;
   font-weight: bold;
   font-size:1.5em;
 }
+
 .wholemainthree{
   overflow: scroll;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../home/1.jpg");
 }
+
 .project h1{
   font-size: 3em;
   font-style: italic;
   font-family: Maitree;
 }
+
 .project h2{
   font-size: 2em;
   font-style: italic;
   font-family: Maitree;
 }
+
 .project p{
   font-size: 1em;
   font-family: Maitree;
 }
+
 .alignProj{
   display: grid;
   grid-template-columns: repeat(2,1fr);
