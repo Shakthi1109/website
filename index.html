@@ -28,15 +28,14 @@
     </header>
 
     <main>
+      <div class="mainOne">
       <div class="container">
         <div class="column active">
           <div class="content">
             <h1>S</h1>
             <div class="box">
               <h2>ABOUT ME</h2>
-                <br/>
-                <p>Hey, I am a Software Engineer specialising in Cybersecurity and AI. I give life to ideas thorugh code.
-                  I am a tech enthusiast, a self-believer and a consistent learner. <br/><br/></p>
+                <p>A Software Engineer specializing in Cybersecurity and AI. </br> A Go-Getter who brings ideas to life. A tech enthusiast, self-believer, and consistent learner.</p>
             </div>
           </div>
           <div class="bg bg1"></div>
@@ -49,9 +48,9 @@
               <h2>FULL-TIME</h2>
               <p>Pivotree Inc.</p>
               <h2>INTERNSHIPS</h2>
-              <p>Renault, France</p>
-              <p>Deakin, Australia</p>
-              <p>Teesside Uni, England</p>
+              <p>Renault, FRANCE</p>
+              <p>Deakin, AUSTRALIA</p>
+              <p>Teesside Uni, UNITED KINGDOM</p>
 
               <a href="#internships">Know more...</a>
             </div>
@@ -68,7 +67,7 @@
               <p>Augmented Reality</p>
               <p>Machine Learning</p>
               <p>Unity Game Dev</p>
-              <p>Laser Walking Stick</p>
+      
               <a href="#project">Know more...</a>
             </div>
           </div>
@@ -94,9 +93,11 @@
           $(this).addClass('active').siblings().removeClass('active')
         })
       </script>
-      </main>
+      </div>
+      
 
-      <mainTwo>
+      <!-- <mainTwo> -->
+      <div class="mainTwo">
         <div class="internships" id="internships">
           <h1>INTERNSHIPS</h1>
 
@@ -238,97 +239,125 @@
               </div>
           </div>
       </div>
-      </mainTwo>
+    </div>
 
 
-      <mainthree>
-        <div class="wholemainthree">
+    <!-- <mainThree> -->
+    <div class="mainThree">
 
-
-        <center>
-          <br/><br/>
+          <br/></br><br/>
           <div class="project" id="project">
             <h1>PROJECTS</h1>
           </div>
           <br/><br/>
-        </center>
+
         <div class="proj">
           <div class="Agile">
-            <center>
-            <h2>1. Agile Developer - Cryptography</h2>
-            </center>
+            
+            <h2>Agile ID Validation (NFC) - Cryptography</h2>
+            
             <br/>
-          </div>
-          <center>
             <div class="video">
-              <iframe width="65%" height="500" src="https://www.youtube.com/embed/cXuTc60YZVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="60%" height="500" src="https://www.youtube.com/embed/cXuTc60YZVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <p>This application was developed at Teesside University as a part of Agile Developer module. This also supports my major project "Synchronous OTG validation of NFC
-transmission using Cryptography". It helps to transfer user data without internet through NFC and validates the authenticity of the data. The transmission has been encrypted using Cryptographic algorithms.</p>
-          </center>
+
+            <p>Developed at Teesside University to support "Synchronous OTG validation of NFC transmission using Cryptography". 
+              It transfers data without internet through NFC and validates the authenticity of the data. The transmission is encrypted using Cryptographic algorithms.</p>
+          </div>
+            
+            
         </div>
 
         <br/><br/>
         <div class="alignProj">
-        <div class="proj">
+        
+          <div class="proj">
           <div class="ar">
-              <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Augmented Reality</h2>
-
+              <h2>Augmented Reality</h2>
             <br/>
-          </div>
             <div class="textOverImage"
               style="background-image:url(proj/proj22.jpg)"
               data-text="AR Learning Enhancement   An android application was developed using Unity 3D and Vuforia. This enhances the learning experience of students by displaying a 3D model of the 2D images present in the book. Thiss has been successfully implemented on 10th CBSE Science Book. This helps the students to understand the concept in a better perspective.">
             </div>
+          </div>
+            
         </div>
         <div class="proj">
           <div class="ml">
-              <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Machine Learning</h2>
+              <h2>Machine Learning</h2>
 
             <br/>
-          </div>
             <div class="textOverImage"
-            style="background-image:url(proj/proj33.jpg)"
-            data-text="ML Algorithm Comparison      A detailed comparison between two machine learning algoritms SVM and CART were implemented. Both these algorithms were tested on the same dataset using python and jupiter and the outputs were analised. It has been proved that SVM performs better than CART for that particular dataset.">
+                style="background-image:url(proj/proj33.jpg)"
+                data-text="ML Algorithm Comparison      A detailed comparison between two machine learning algoritms SVM and CART were implemented. Both these algorithms were tested on the same dataset using python and jupiter and the outputs were analised. It has been proved that SVM performs better than CART for that particular dataset.">
             </div>
+          </div>
+
         </div>
 
 
         <div class="proj">
           <div class="unity">
-              <h2>&nbsp;&nbsp;4. Unity Game Development</h2>
-
-
+              <h2>Unity Game Development</h2>
             <br/>
-          </div>
+
             <div class="textOverImage"
-              style="background-image:url(proj/proj44.png)"
-              data-text="Viking Quest Game - Unity    This game was created from scratch where the character Viking roams around the village in search of gold. The aim is to collect maximum gold in the given time. Viking was programmed with a few basic moves such as run, jump and crouch using c# which are controlled by the user. This game was created using Unity 3D Game Engine.">
-            </div>
+            style="background-image:url(proj/proj44.png)"
+            data-text="Viking Quest Game - Unity    This game was created from scratch where the character Viking roams around the village in search of gold. The aim is to collect maximum gold in the given time. Viking was programmed with a few basic moves such as run, jump and crouch using c# which are controlled by the user. This game was created using Unity 3D Game Engine.">
+          </div>
+          </div>
+
         </div>
+
         <div class="proj">
           <div class="laser">
-              <h2>5. National Science Day Project</h2>
-
+              <h2>National Science Day Project</h2>
             <br/>
-          </div>
+
             <div class="textOverImage"
             style="background-image:url(proj/proj5-min.jpg)"
             data-text="Laser Walking Stick             This device was invented to help visually impaired people to walk in path with obstacles. This device has a laser and a LDR on the bottom which helps to detect objects in its path. When the laser light gets blocked by the obstacle, the device beeps and alerts the person. This device was also attached with a shartphone with an app to identify and say the name of the objects kept in front of the camera.  ">
             </div>
+          </div>
         </div>
-        </div>
-        </div>
-      </mainthree>
 
-      <mainfour>
-        <div class="achievements" id="achievements"></div>
+
+        <div class="proj">
+          <div class="unity">
+              <h2>Unity Game Development</h2>
+            <br/>
+
+            <div class="textOverImage"
+            style="background-image:url(proj/proj44.png)"
+            data-text="Viking Quest Game - Unity    This game was created from scratch where the character Viking roams around the village in search of gold. The aim is to collect maximum gold in the given time. Viking was programmed with a few basic moves such as run, jump and crouch using c# which are controlled by the user. This game was created using Unity 3D Game Engine.">
+          </div>
+          </div>
+
+        </div>
+
+        <div class="proj">
+          <div class="laser">
+              <h2>National Science Day Project</h2>
+            <br/>
+
+            <div class="textOverImage"
+            style="background-image:url(proj/proj5-min.jpg)"
+            data-text="Laser Walking Stick             This device was invented to help visually impaired people to walk in path with obstacles. This device has a laser and a LDR on the bottom which helps to detect objects in its path. When the laser light gets blocked by the obstacle, the device beeps and alerts the person. This device was also attached with a shartphone with an app to identify and say the name of the objects kept in front of the camera.  ">
+            </div>
+          </div>
+        </div>
+
+
+
+        </div>
+        </div>
+
+      <!-- <mainFour> -->
+        <div class="achievements" id="achievements">
         <div class="achievementsdiv">
           <div class="mainfourtitle">
-            <center>
               <br/><br/>
             <h1>ACHIEVEMENTS</h1>
-            </center>
           </div>
           <br/>
         <ul class="achievements">
@@ -348,8 +377,10 @@ transmission using Cryptography". It helps to transfer user data without interne
           <li><span class="name">One of the finalist of 2013 State-level Badminton tournament (Singles)</span></li>
         </ul>
         </div>
-      </mainfour>
-      <mainfive>
+      </div>
+      
+
+      <!-- <mainfive> -->
         <div class="wholemobile" id="wholemobile">
         <div class="mobile">
           <div class="top"></div>
@@ -380,7 +411,7 @@ transmission using Cryptography". It helps to transfer user data without interne
           }
           </script>
         </div>
-      </div>
+      
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script type="text/javascript">
           $(document).ready(function(){
@@ -389,14 +420,17 @@ transmission using Cryptography". It helps to transfer user data without interne
             })
           })
         </script>
-      </mainfive>
-      <mainsix>
+      </div>
+
+      
+      <!-- <mainsix> -->
         <div class="message">
           <p>Message from the Developer: Thanks very much for your time. This site was developed under 24 hours from scratch. So, there might be a few glitches which will be rectified soon. I would love to hear your feedback. Kindly let me know your thoughts. Unlock the above mobile (click home button) to view my contact details. The contents of this site was last updated on September 2019. To know the latest info, please check my Resume or Linkedin.  
             Also, do have a look at my <a href="https://cvdesignr.com/p/6540d372df9da"target="_blank">CV français</a> / <a href="https://cvdesignr.com/p/6531a10919406"target="_blank">English CV</a> too. See ya! <a href="#header">Scroll up</a></p>
 
         </div>
-        <mainsix>
+    
+    </main>
 
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

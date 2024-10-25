@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: maitree;
-  color: #fff;
 
 }
 
@@ -25,7 +24,7 @@ body::after{
   display:none;
 }
 
-mainTwo{
+.mainTwo{
   display: flex;
   justify-content: center;
   background:#fff;
@@ -257,7 +256,7 @@ ul.header li a:hover{
   height: auto;
 }
 
-.main{
+.mainOne{
   max-width: auto;
   margin-left: 5px;
   margin-right: 5px;
@@ -335,26 +334,35 @@ ul.header li a:hover{
   font-size:1.5em;
 }
 
-.wholemainthree{
-  overflow: scroll;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../home/1.jpg");
+
+.mainThree{
+  overflow:visible;
+  background: #D2FDFF;
+  height: 450vh;
+}
+
+.project{
+  text-align: center;
 }
 
 .project h1{
   font-size: 3em;
   font-style: italic;
   font-family: Maitree;
+  color: #000;
 }
 
 .project h2{
   font-size: 2em;
   font-style: italic;
   font-family: Maitree;
+  color: #000;
 }
 
 .project p{
   font-size: 1em;
   font-family: Maitree;
+  color: #000 !important;
 }
 
 .alignProj{
@@ -374,6 +382,15 @@ ul.header li a:hover{
   overflow: hidden;
   background-color: rgb(0, 0, 0);
   height: 100%;
+}
+
+.mainfourtitle h1{
+  padding-top: 4%;
+  font-size: 3em;
+  font-style: italic;
+  font-family: Maitree;
+  color: #fff;
+  text-align: center;
 }
 
 ul.achievements{
@@ -401,24 +418,11 @@ ul.achievements li{
   transition: 0.5s;
   font-size: 1em;
 }
-/* ul.achievements li:nth-child(1){
-  background: rgba(255, 255, 255, 0.6);
-} */
+
 ul.achievements li{
   background: rgba(255, 255, 255, 0.2);
 }
-/* ul.achievements li:nth-child(2){
-  background: rgba(255, 255, 255, 0.4);
-} */
-/* ul.achievements li span:nth-child(1){
-  width:100px;
-} */
-/* ul.achievements li span:nth-child(1){
-  width:250px;
-} */
-/* ul.achievements li span:nth-child(2){
-  width:20px;
-} */
+
 ul.achievements li:hover{
   transform:scale(1.03);
   background: #69e045;
@@ -641,20 +645,28 @@ h2 span{
   from {opacity: 0;}
   to {opacity:1 ;}
 }
-.wholemainthree .proj p{
+.mainThree .proj p{
   padding-top:25px;
   padding-left:100px;
   padding-right:100px;
   font-size:25px;
+  text-align: center;
 }
-.wholemainthree .proj h1{
+.mainThree .proj h1{
   font-size: 3em;
   font-style: italic;
 }
-.wholemainthree .proj h2{
+.mainThree .proj h2{
   font-size: 2em;
   font-style: italic;
+  text-align: center;
 }
+
+.mainThree .video{
+  text-align: center;
+}
+
+
 .message p{
   color: #000;
   font-weight: bold;
@@ -666,24 +678,6 @@ h2 span{
 
 }
 
-@media only screen and (max-width: 1000px) {
-  /* For desktop: */
-  .alignProj{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-
-  .align{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding-left: 2%;
-  }
-
-  .internships h1{
-    padding-left: 20%;
-  }
-
-}
 
 .button {
   background-color: #49e819;
@@ -720,4 +714,63 @@ h2 span{
 }
 .flash {
   animation: glowing 1300ms infinite;
+}
+
+
+@media all and (min-width:0px) and (max-width: 480px) {
+  /* For mobile: */
+
+  .mainOne{
+    overflow:hidden;
+  } 
+  
+  .mainTwo{
+    height: 100vh;
+  }
+
+  .alignProj{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .align{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 2%;
+  }
+
+  .internships h1{
+    padding-left: 20%;
+  }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  /* For desktop: */
+
+  .mainOne{
+    overflow:hidden;
+  } 
+
+  .mainThree{
+    height: 780vh;
+  }
+  .alignProj{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .align{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 2%;
+  }
+
+  .mainTwo {
+    height: 420vh;
+  }
+
+  .internships h1{
+    padding-left: 20%;
+  }
 }
