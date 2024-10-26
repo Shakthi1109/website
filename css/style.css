@@ -290,7 +290,7 @@ ul.header li a:hover{
 .textOverImage{
   position: relative;
   width:23em;
-  height: 23em;
+  height: 20em;
   float:left;
   margin:4px;
   background-size:100%;
@@ -338,8 +338,9 @@ ul.header li a:hover{
 .mainThree{
   overflow:visible;
   background: #D2FDFF;
-  height: 450vh;
+  height: 510vh;
 }
+
 
 .project{
   text-align: center;
@@ -352,11 +353,12 @@ ul.header li a:hover{
   color: #000;
 }
 
-.project h2{
+.proj h2{
   font-size: 2em;
   font-style: italic;
   font-family: Maitree;
   color: #000;
+  text-align: center;
 }
 
 .project p{
@@ -368,12 +370,13 @@ ul.header li a:hover{
 .alignProj{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 5%;
-  grid-row-gap: 5%;
+  grid-column-gap: 10%;
+  grid-row-gap: 7%;
   padding-left: 10%;
-  margin-left: 10%;
+  margin-left: 8%;
   padding-right: 10%;
   padding-bottom: 10%;
+  padding-top: 3%;
   max-width: 100%;
 }
 
@@ -381,7 +384,7 @@ ul.header li a:hover{
   margin:0;
   overflow: hidden;
   background-color: rgb(0, 0, 0);
-  height: 100%;
+  height: 170vh;
 }
 
 .mainfourtitle h1{
@@ -717,30 +720,32 @@ h2 span{
 }
 
 
-@media all and (min-width:0px) and (max-width: 480px) {
+@media only screen and (min-device-width : 100px) and (max-device-width : 480px) {
   /* For mobile: */
 
   .mainOne{
     overflow:hidden;
   } 
-  
+
   .mainTwo{
-    height: 100vh;
+    height: 150vh !important;
   }
 
-  .alignProj{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+  .mainThree{
+    height: 300vh !important;
   }
 
-  .align{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding-left: 2%;
+  .achievementsdiv{
+    height: 65vh !important;
   }
 
   .internships h1{
     padding-left: 20%;
+  }
+
+  .alignProj{
+    justify-items: center !important;
+    padding-left: 5%;
   }
 
 }
@@ -753,12 +758,19 @@ h2 span{
   } 
 
   .mainThree{
-    height: 780vh;
+    height: 880vh;
   }
   .alignProj{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 3% !important;
+    justify-items: center !important;
   }
+
+  
+.achievementsdiv{
+  height: 200vh;
+}
 
   .align{
     display: grid;
