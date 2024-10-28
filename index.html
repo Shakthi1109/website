@@ -12,30 +12,50 @@
   </head>
 
   <body>
+
     <header>
-      <div class="header" id="header"></div>
-      <div class="main">
-        <div class="logo">
-          <a href="https://shakthi1109.github.io/shakthi"><img src="./home/shakLogo1.png"></a>
+      <div class="header" id="header">
+        <div class="main">
+          <div class="logo">
+            <a href="https://shakthi1109.github.io/shakthi"><img src="./home/shakLogo1.png"></a>
+          </div>
+          <ul class="header">
+            
+            <!-- CV DEV Button with Dropdown -->
+            <li class="button-container">
+              <button class="buttonDrop">CV DEV</button>
+              <div class="dropdown-content">
+                <a href="https://cvdesignr.com/p/655d1f289c06f" target="_blank">French</a>
+                <a href="https://cvdesignr.com/p/655d1ee9ade9b" target="_blank">English</a>
+              </div>
+            </li>
+    
+            <!-- CV Cyber Button with Dropdown -->
+            <li class="button-container">
+              <button class="buttonDrop">CV CYBER</button>
+              <div class="dropdown-content">
+                <a href="https://cvdesignr.com/p/6540d372df9da" target="_blank">French</a>
+                <a href="https://cvdesignr.com/p/6531a10919406" target="_blank">English</a>
+              </div>
+            </li>
+    
+            <!-- Other Links -->
+            <li class="button"><a href="https://www.linkedin.com/in/shakthi11/" target="_blank">LinkedIn</a></li>
+            <li class="button"><a href="#wholemobile">Contact</a></li>
+          </ul>
         </div>
-        <ul class="header">
-          <li class="button"><a href="https://cvdesignr.com/p/6540d372df9da">CV français</a></li>
-          <li class="button"><a href="https://cvdesignr.com/p/6531a10919406">English CV</a></li>
-          <li class="button"><a href="https://www.linkedin.com/in/shakthi11/" target="_blank">Linkedin</a></li>
-          <li class="button"><a href="#wholemobile">Contact</a></li>
-        </ul>
       </div>
     </header>
 
     <main>
-      <div class="mainOne">
+      <div class="mainOne" id="mainOne">
       <div class="container">
         <div class="column active">
           <div class="content">
             <h1>S</h1>
             <div class="box">
               <h2>ABOUT ME</h2>
-                <p>A Software Engineer specializing in Cybersecurity and AI. </br> A Go-Getter who brings ideas to life. A tech enthusiast, self-believer, and consistent learner.</p>
+                <p>A Software Engineer specializing in Cybersecurity and AI. </br> A Go-Getter who brings thoughts into reality. A tech enthusiast, self-believer, and consistent learner.</p>
             </div>
           </div>
           <div class="bg bg1"></div>
@@ -64,7 +84,7 @@
             <div class="box">
               <h2>PROJECTS</h2>
               <p>Biometric Payment - Cyber</p>
-              <p>Pothold Detection - ML</p>
+              <p>Pothole Detection - ML</p>
               <p>ID Validation - NFC</p>
               <p>Augmented Reality Learning </p>
       
@@ -79,9 +99,9 @@
             <h1>K</h1>
             <div class="box">
               <h2>ACHIEVEMENTS</h2>
-              <p>Top Performer at Pivotree (Office)</p>
+              <p>Top Performer at Pivotree (CDI)</p>
               <p>University Rank Holder </p>
-              <p>Started coding at the age of 10 </p>
+              <p>Coding since 2010 </p>
               <p>Studied and worked in 4 countries </p>
               <a href="#achievements">and more...</a>
             </div>
@@ -263,7 +283,7 @@
               <iframe width="60%" height="500" src="https://www.youtube.com/embed/cXuTc60YZVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <p>Throw your ID cards away, just tab your mobile and validate yourself using NFC or QR code. Developed at Teesside University to support the research paper "Synchronous OTG validation of NFC transmission using Cryptography". </br>Tech: Java, Android, Firebase, NFC</p>
+            <p class="NFC_text">Throw your ID cards away, just tab your mobile and validate yourself using NFC or QR code. Developed at Teesside University to support the research paper "Synchronous OTG validation of NFC transmission using Cryptography". </br>Tech: Java, Android, Firebase, NFC</p>
           </div>
             
             
@@ -385,7 +405,7 @@
           </div>
           <br/>
         <ul class="achievements">
-          <li><span class="name">Won 2nd place in European Hackathon '24 at Paris</span></li>
+          <li><span class="name">Won 2nd place in European Hackathon '24 in Paris, France</span></li>
           <li><span class="name">Presented futurestic Transport iporvements to French Transport Minister at the Minisrty, Paris</span></li>
           <li><span class="name">Obtained 3rd rank in the department of AI and Cybersecurity at ESIEE Paris (Gustav Eiffel University)</span></li>
           <li><span class="name">Completed IBM Certification on Cyber Fundamentals, Enterprise Security, Threat Intelligence</span></li>
@@ -427,7 +447,7 @@
           <div class="bottom"></div>
           <div class="screen">
             <img src="./home/6.jpg" width="270px" height="480px">
-            <h2 class="time">11:11<span>PM</span><br><span>11th Sept,2024</span></h2>
+            <h2 class="time">11:11<span>PM</span><br><span>28th Oct, 2024</span></h2>
               <ul>
                 <div class="popup" onclick="myFunction()"><li><i class="fa fa-phone" aria-hidden="true"></i></li>
                   <span class="popuptext" id="myPopup">+33 0749944301 </span>
@@ -464,9 +484,9 @@
       
       <!-- <mainsix> -->
         <div class="message">
-          <p>Message from the Developer: </br>
-            Thanks very much for your time. Unlock the above mobile (click home button) to view my contact details. The contents of this site was last updated on 26th October 2024. Check my resume or linkedin for latest info. <a href="#header">Scroll up</a>
-          </br>Copyrights © reserved by Shakthivel Murugavel™</p>
+          <p>Message from the Developer: <br>
+            Thanks very much for your time. Unlock the above mobile (click home button) to view my contact details. Check my resume or linkedin for latest info. <a href="#mainOne">Scroll up</a>
+          <br>Copyrights © reserved by Shakthivel Murugavel™</p>
 
         </div>
     
