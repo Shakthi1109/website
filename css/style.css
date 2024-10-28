@@ -793,6 +793,43 @@ h2 span{
     padding-left: 5%;
   }
 
+  .button {
+    padding: 15px 30px; /* Increase padding */
+    font-size: 18px !important;
+    font-weight: bolder !important; 
+  }
+  
+  
+  .buttonDrop {
+  
+    padding: 15px 30px; /* Increase padding */
+    font-size: 18px !important;
+    font-weight: bolder !important; 
+  
+  }
+  
+
+  /* Dropdown styling */
+  .dropdown-content {
+
+    font-size: 18px !important;
+    font-weight: bolder !important; 
+
+  }
+  
+  .dropdown-content a {
+
+    font-size: 18px !important;
+    font-weight: bolder !important; 
+
+  }
+
+  .logo img{
+    width: 200px;
+  }
+  
+
+
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
