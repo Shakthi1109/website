@@ -822,7 +822,7 @@ h2 span{
     font-weight: bolder !important; 
     padding: 15px 19px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px  !important;
     
 
   }
@@ -831,6 +831,8 @@ h2 span{
 
     font-size: 18px !important;
     font-weight: bolder !important; 
+    padding-top: 20px !important;
+    padding-bottom: 20px  !important;
 
   }
 
