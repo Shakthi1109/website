@@ -8,19 +8,15 @@
     <link href='https://fonts.googleapis.com/css?family=Maitree' rel='stylesheet'>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-
   </head>
-
   <body>
-
     <header>
       <div class="header" id="header">
         <div class="main">
           <div class="logo">
-            <a href="https://shakthi1109.github.io/shakthi"><img src="./home/shakLogo1.png"></a>
+            <a href="https://shakthi1109.github.io/website"><img src="./home/shakLogo1.png" alt="Shakthi Logo"></a>
           </div>
           <ul class="header">
-            
             <!-- CV DEV Button with Dropdown -->
             <li class="button-container">
               <button class="buttonDrop">CV DEV</button>
@@ -29,16 +25,6 @@
                 <a href="https://cvdesignr.com/p/655d1ee9ade9b" target="_blank">English</a>
               </div>
             </li>
-    
-            <!-- CV Cyber Button with Dropdown -->
-            <li class="button-container">
-              <button class="buttonDrop">CV CYBER</button>
-              <div class="dropdown-content">
-                <a href="https://cvdesignr.com/p/6540d372df9da" target="_blank">French</a>
-                <a href="https://cvdesignr.com/p/6531a10919406" target="_blank">English</a>
-              </div>
-            </li>
-    
             <!-- Other Links -->
             <li class="button"><a href="https://www.linkedin.com/in/shakthi11/" target="_blank">LinkedIn</a></li>
             <li class="button"><a href="#wholemobile">Contact</a></li>
@@ -46,433 +32,383 @@
         </div>
       </div>
     </header>
-
     <main>
       <div class="mainOne" id="mainOne">
-      <div class="container">
-        <div class="column active">
-          <div class="content">
-            <h1>S</h1>
-            <div class="box">
-              <h2>ABOUT ME</h2>
-                <p>A Software Engineer specializing in Cybersecurity and AI. </br> A Go-Getter who brings thoughts into reality. A tech enthusiast, self-believer, and consistent learner.</p>
+        <div class="container">
+          <div class="column active">
+            <div class="content">
+              <h1>S</h1>
+              <div class="box">
+                <h2>ABOUT ME</h2>
+                <p>Software Engineer specializing in Software Development, Cybersecurity and AI. <br> A Go-Getter who brings thoughts into reality. A tech enthusiast, self-believer, and consistent learner.</p>
+              </div>
             </div>
+            <div class="bg bg1"></div>
           </div>
-          <div class="bg bg1"></div>
-        </div>
-
-        <div class="column">
-          <div class="content">
-            <h1>H</h1>
-            <div class="box">
-              <h2>FULL-TIME</h2>
-              <p>Pivotree Inc.</p>
-              <h2>INTERNSHIPS</h2>
-              <p>Renault, FRANCE</p>
-              <p>Deakin, AUSTRALIA</p>
-              <p>Teesside Uni, UNITED KINGDOM</p>
-
-              <a href="#internships">Know more...</a>
+          <div class="column">
+            <div class="content">
+              <h1>H</h1>
+              <div class="box">
+                <h2>FULL-TIME</h2>
+                <p>PIVOTREE Canada</p>
+                <h2>INTERNSHIPS</h2>
+                <p>Renault France</p>
+                <p>Deakin Research Australia</p>
+                <p>Teesside Uni United Kingdom</p>
+                <a href="#internships">Know more...</a>
+              </div>
             </div>
+            <div class="bg bg2"></div>
           </div>
-          <div class="bg bg2"></div>
-        </div>
-
-        <div class="column">
-          <div class="content">
-            <h1>A</h1>
-            <div class="box">
-              <h2>PROJECTS</h2>
-              <p>Biometric Payment - Cyber</p>
-              <p>Pothole Detection - ML</p>
-              <p>ID Validation - NFC</p>
-              <p>Augmented Reality Learning </p>
-      
-              <a href="#project">Know more...</a>
+          <div class="column">
+            <div class="content">
+              <h1>A</h1>
+              <div class="box">
+                <h2>LATEST PROJECTS</h2>
+                <p><a href="https://www.linkedin.com/in/shakthi11/">Linkedin</a> & <a href="https://github.com/Shakthi1109">Github</a></p>
+                <p>Full-Stack Dev</p>
+                <p>Machine Learning</p>
+                <p>Mobile App Dev</p>
+                <p>Augmented Reality</p>
+                <a href="#project">Know more...</a>
+              </div>
             </div>
+            <div class="bg bg3"></div>
           </div>
-          <div class="bg bg3"></div>
-        </div>
-
-        <div class="column">
-          <div class="content">
-            <h1>K</h1>
-            <div class="box">
-              <h2>ACHIEVEMENTS</h2>
-              <p>Top Performer at Pivotree (CDI)</p>
-              <p>University Rank Holder </p>
-              <p>Coding since 2010 </p>
-              <p>Studied and worked in 4 countries </p>
-              <a href="#achievements">and more...</a>
+          <div class="column">
+            <div class="content">
+              <h1>K</h1>
+              <div class="box">
+                <h2>ACHIEVEMENTS</h2>
+                <p>Top Performer at Pivotree (CDI)</p>
+                <p>University Rank Holder </p>
+                <p>Coding since 2010 </p>
+                <p>Studied and worked in 4 countries </p>
+                <a href="#achievements">and more...</a>
+              </div>
             </div>
+            <div class="bg bg4"></div>
           </div>
-          <div class="bg bg4"></div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+          $(document).on('mouseover','.container .column', function(){
+            $(this).addClass('active').siblings().removeClass('active')
+          })
+        </script>
       </div>
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
-        $(document).on('mouseover','.container .column', function(){
-          $(this).addClass('active').siblings().removeClass('active')
-        })
-      </script>
-      </div>
-      
-
       <!-- <mainTwo> -->
       <div class="mainTwo">
         <div class="internships" id="internships">
           <h1>INTERNSHIPS</h1>
-
           <div class="align">
-
             <div class="card">
-              <input type="checkbox" name="" value="">
+              <input type="checkbox" name="internRenault" value="">
               <div class="toggle">+</div>
               <div class="imgBx">
-                <img src="intern/renault.png" width=100% height=100%>
+                <img src="./intern/renault.png" style="width: 100%; height: 100%;" alt="Renault Internship Logo">
               </div>
               <div class="details">
                 <h2>Renault France</h2>
-                <p>Period: Feb to Aug 2024</p>
-                <p>Title: Integration Engineer</p>
-                <p>Framework: Java SpringBoot</p><br/>
-                <p>Worked on the migration of "DataHUB" project from Apache Camel, Java 8 & MongoDB 3 to SpringBoot, Java 17 & MongoDB 7. </p>
+                <p>Title: Full Stack Developer</p>
+                <p>Framework: Java, SpringBoot</p>
+                <br>
+                <p>Worked on the migration of "DataHUB" project from Apache Camel, Java 8 & MongoDB 3 to SpringBoot, Java 17 & MongoDB 7.</p>
               </div>
             </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/deak.jpg" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Deakin University, Australia</h2>
-                  <p>Period: May to Aug 2023</p>
-                  <p>Title: Oprimization Programmer</p>
-                  <p>Framework: Machine Learning</p><br/>
-                  <p>Programmed and optimized the project "Community Clustering Beyond Stochastic Block Models", achieving a 92% improvement.  </p>
-                </div>
+            <div class="card">
+              <input type="checkbox" name="internDeakin" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/deak.jpg" style="width: 100%; height: 100%;" alt="Deakin Internship Logo">
               </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/creare.png" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Creare Foundation</h2>
-                  <p>Period: June-July 2020</p>
-                  <p>Title: Front-end Developer</p>
-                  <p>Framework: NextJs</p><br/>
-                  <p>A team of 8 to build an e-learning platform for online learning to help students during Covid 19 using NextJs and NodeJs. </p>
-                </div>
+              <div class="details">
+                <h2>Deakin University, Australia</h2>
+                <p>Title: Optimisation Programmer</p>
+                <p>Framework: Machine Learning</p>
+                <br>
+                <p>Programmed and optimized the project "Community Clustering Beyond Stochastic Block Models", achieving a 92% improvement.  </p>
               </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/crio.png" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Crio Do</h2>
-                  <p>Period: Jan-Mar 2020</p>
-                  <p>Title: Backend Developer</p>
-                  <p>Framework: Python Flask</p><br/>
-                  <p>Built an API to support file transfer protocol for a social media application using Python. </p>
-                </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internCreare" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/creare.png" style="width: 100%; height: 100%;" alt="Creare Internship Logo">
               </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/tees-min.jpg" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Teesside University, United Kingdom</h2>
-                  <p>Period: March 2019</p>
-                  <p>Title: Frontend Developer</p>
-                  <p>Framework: MERN Stack</p><br/>
-                  <p>Developed a webApp to help senior citizens medically and to organise their health care records. </p>
-                </div>
+              <div class="details">
+                <h2>Creare Foundation</h2>
+                <p>Title: Full Stack Developer</p>
+                <p>Framework: Next.js, Node.js</p>
+                <br>
+                <p>A team of 8 to build an e-learning platform for online learning to help students during Covid 19 using NextJs and NodeJs. </p>
               </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/mgr.jpg" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Dr. MGR University, India</h2>
-                  <p>Period: December 2018</p>
-                  <p>Title: Android Developer</p>
-                  <p>Framework: Android Studio</p><br/>
-                  <p>An android app to detect radio-frequencies emitted from cellular devices to support a research paper of the Dean of Dr. MGR University. </p>
-                </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internCrio" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/crio.png" style="width: 100%; height: 100%;" alt="Crio Internship Logo">
               </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/ideagigs1.jpg" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Ideagigs Pvt. Ltd.</h2>
-                  <p>Period: June 2018</p>
-                  <p>Title: Frontend Developer</p>
-                  <p>Framework: ReactJs</p><br/>
-                  <p>A webapp was developed for Ideagigs' official site. A few components of the home page was developed guided by the senior developer of the company. </p>
-                </div>
+              <div class="details">
+                <h2>Crio Do</h2>
+                <p>Title: Backend Developer</p>
+                <p>Framework: Python Flask</p>
+                <br>
+                <p>Built an API to support file transfer protocol for a social media application using Python. </p>
               </div>
-
-              <div class="card">
-                <input type="checkbox" name="" value="">
-                <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/spi.png" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>SPI Cinemas</h2>
-                  <p>Period: March 2018</p>
-                  <p>Title: Web Developer</p>
-                  <p>Framework: HTML & CSS</p><br/>
-                  <p>A website built for SPI cinemas to spread awarness and raise funding to fight against homelessness. </p>
-                </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internTeesside" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/tees-min.jpg" style="width: 100%; height: 100%;" alt="Tees Internship Logo">
               </div>
-
-              <div class="card">
-                  <input type="checkbox" name="" value="">
-                  <div class="toggle">+</div>
-                <div class="imgBx">
-                  <img src="intern/hasura.png" width=100% height=100%>
-                </div>
-                <div class="details">
-                  <h2>Hasura Technologies</h2>
-                  <p>Period: Dec 2017 to Feb 2018</p>
-                  <p>Title: Mobile App Developer</p>
-                  <p>Framework: React Native</p><br/>
-                  <p> Development and usage of Hasura API in clones of Twitter and Uber Mobile Apps built from scratch using React Native. </p>
-                </div>
+              <div class="details">
+                <h2>Teesside University, United Kingdom</h2>
+                <p>Title: Full Stack Developer</p>
+                <p>Framework: MERN Stack</p>
+                <br>
+                <p>Developed a webApp to help senior citizens medically and to organise their health care records. </p>
               </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internMgr" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/mgr.jpg" style="width: 100%; height: 100%;" alt="Mgr Internship Logo">
+              </div>
+              <div class="details">
+                <h2>Dr. MGR University, India</h2>
+                <p>Title: Mobile Application Developer</p>
+                <p>Framework: Android SDK</p>
+                <br>
+                <p>An android app to detect radio-frequencies emitted from cellular devices to support a research paper of the Dean of Dr. MGR University. </p>
+              </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internIdea" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/ideagigs1.jpg" style="width: 100%; height: 100%;" alt="Idea Internship Logo">
+              </div>
+              <div class="details">
+                <h2>Ideagigs Pvt. Ltd.</h2>
+                <p>Title: Full Stack Developer</p>
+                <p>Framework: React.js</p>
+                <br>
+                <p>A webapp was developed for Ideagigs' official site. A few components of the home page was developed guided by the senior developer of the company. </p>
+              </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internSPI" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/spi.png" style="width: 100%; height: 100%;" alt="Spi Internship Logo">
+              </div>
+              <div class="details">
+                <h2>SPI Cinemas</h2>
+                <p>Title: Web Application Developer</p>
+                <p>Framework: HTML, CSS, Javascript</p>
+                <br>
+                <p>A website built for SPI cinemas to spread awarness and raise funding to fight against homelessness. </p>
+              </div>
+            </div>
+            <div class="card">
+              <input type="checkbox" name="internHasura" value="">
+              <div class="toggle">+</div>
+              <div class="imgBx">
+                <img src="./intern/hasura.png" style="width: 100%; height: 100%;" alt="Hasura Internship Logo">
+              </div>
+              <div class="details">
+                <h2>Hasura Technologies</h2>
+                <p>Title: Mobile Application Developer</p>
+                <p>Framework: React Native</p>
+                <br>
+                <p> Development and usage of Hasura API in clones of Twitter and Uber Mobile Apps built from scratch using React Native. </p>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-    </div>
-
-
-    <!-- <mainThree> -->
-    <div class="mainThree">
-
-          <br/></br><br/>
-          <div class="project" id="project">
-            <h1>PROJECTS</h1>
-          </div>
-          <br/><br/>
-
+      <!-- <mainThree> -->
+      <div class="mainThree">
+        <br><br><br>
+        <div class="project" id="project">
+          <h1>PROJECTS</h1>
+        </div>
+        <br><br>
         <div class="proj">
           <div class="Agile">
-            
             <h2>Tap n Enter - NFC ©</h2>
-            
-            <br/>
+            <br>
             <div class="video">
-              <iframe width="60%" height="500" src="https://www.youtube.com/embed/cXuTc60YZVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/cXuTc60YZVQ" 
+              style="width: 60%; height: 500px; border: none;" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+      </iframe>
             </div>
-
-            <p class="NFC_text">Throw your ID cards away, just tab your mobile and validate yourself using NFC or QR code. Developed at Teesside University to support the research paper "Synchronous OTG validation of NFC transmission using Cryptography". </br>Tech: Java, Android, Firebase, NFC</p>
+            <p class="NFC_text">Throw your ID cards away, just tab your mobile and validate yourself using NFC or QR code. Developed at Teesside University to support the research paper "Synchronous OTG validation of NFC transmission using Cryptography". <br>Tech: Java, Android, Firebase, NFC</p>
           </div>
-            
-            
         </div>
-
-        <br/><br/>
+        <br><br>
         <div class="alignProj">
-        
           <div class="proj">
-          <div class="ar">
+            <div class="ar">
               <h2> FPay - Biometric Payment App ©</h2>
-            <br/>
-            <div class="textOverImage"
-              style="background-image:url(proj/fpay.jpg)"
-              data-text="Biometric Payment App: Why carry a wallet, when you have a unique ID on your fingertip? Go cashless anywhere and pay just with your fingertip. Tech: Cryptography, Java, Biometrics, Android SDK, Database Management (Firebase)">
+              <br>
+              <div class="textOverImage"
+                style="background-image:url(proj/fpay.jpg)"
+                data-text="Biometric Payment App: Why carry a wallet, when you have a unique ID on your fingertip? Go cashless anywhere and pay just with your fingertip. Tech: Cryptography, Java, Biometrics, Android SDK, Database Management (Firebase)">
+              </div>
             </div>
           </div>
-            
-        </div>
-        <div class="proj">
-          <div class="ml">
+          <div class="proj">
+            <div class="ml">
               <h2>Pothole Detection using ML</h2>
-
-            <br/>
-            <div class="textOverImage"
+              <br>
+              <div class="textOverImage"
                 style="background-image:url(proj/potho.jpg)"
                 data-text="Pothole Detection App : An application to automatically detect potholes on the road and notify authorities (Drive mode). Users can also take a picture and report which is verified using a ML Classifier. Tech: Flutter, NodeJs, MongoDB, ML Classifier">
+              </div>
             </div>
           </div>
-
-        </div>
-
-        <div class="proj">
-          <div class="ar">
+          <div class="proj">
+            <div class="ar">
               <h2>Augmented Reality</h2>
-            <br/>
-            <div class="textOverImage"
-              style="background-image:url(proj/proj22.jpg)"
-              data-text="AR Learning Enhancement : An android application was developed using Unity 3D and Vuforia. This enhances the learning experience of students by displaying a 3D model of the 2D images present in the book. Thiss has been successfully implemented on 10th CBSE Science Book. This helps the students to understand the concept in a better perspective.">
+              <br>
+              <div class="textOverImage"
+                style="background-image:url(proj/proj22.jpg)"
+                data-text="AR Learning Enhancement : An android application was developed using Unity 3D and Vuforia. This enhances the learning experience of students by displaying a 3D model of the 2D images present in the book. Thiss has been successfully implemented on 10th CBSE Science Book. This helps the students to understand the concept in a better perspective.">
+              </div>
             </div>
           </div>
-            
-        </div>
-        <div class="proj">
-          <div class="ml">
+          <div class="proj">
+            <div class="ml">
               <h2>Machine Learning</h2>
-
-            <br/>
-            <div class="textOverImage"
+              <br>
+              <div class="textOverImage"
                 style="background-image:url(proj/proj33.jpg)"
                 data-text="ML Algorithm Comparison : A detailed comparison between two machine learning algoritms SVM and CART were implemented. Both these algorithms were tested on the same dataset using python and jupiter and the outputs were analised. It has been proved that SVM performs better than CART for that particular dataset.">
+              </div>
             </div>
           </div>
-
-        </div>
-
-
-        <div class="proj">
-          <div class="unity">
+          <div class="proj">
+            <div class="unity">
               <h2>Unity Game Development</h2>
-            <br/>
-
-            <div class="textOverImage"
-            style="background-image:url(proj/proj44.png)"
-            data-text="Viking Quest Game - Unity : This game was created from scratch where the character Viking roams around the village in search of gold. The aim is to collect maximum gold in the given time. Viking was programmed with a few basic moves such as run, jump and crouch using c# which are controlled by the user. This game was created using Unity 3D Game Engine.">
+              <br>
+              <div class="textOverImage"
+                style="background-image:url(proj/proj44.png)"
+                data-text="Viking Quest Game - Unity : This game was created from scratch where the character Viking roams around the village in search of gold. The aim is to collect maximum gold in the given time. Viking was programmed with a few basic moves such as run, jump and crouch using c# which are controlled by the user. This game was created using Unity 3D Game Engine.">
+              </div>
+            </div>
           </div>
-          </div>
-
-        </div>
-
-        <div class="proj">
-          <div class="laser">
+          <div class="proj">
+            <div class="laser">
               <h2>Rendez-vous Management App</h2>
-            <br/>
-
-            <div class="textOverImage"
-            style="background-image:url(proj/rdv.png)"
-            data-text="Rendez-vous Management App : Created Rendez-vous Management App for a course in ESIEE Paris using Android Studio. ">
+              <br>
+              <div class="textOverImage"
+                style="background-image:url(proj/rdv.png)"
+                data-text="Rendez-vous Management App : Created Rendez-vous Management App for a course in ESIEE Paris using Android Studio. ">
+              </div>
             </div>
           </div>
-        </div>
-
-
-        <div class="proj">
-          <div class="unity">
+          <div class="proj">
+            <div class="unity">
               <h2>SRM University Alumini Portal</h2>
-            <br/>
-
-            <div class="textOverImage"
-            style="background-image:url(proj/alu.jpg)"
-            data-text="SRM University Alumini Management Portal : Created Alumini Management Portal for SRM University using PHP and Database Management System (DBMS)">
-          </div>
-          </div>
-
-        </div>
-
-        <div class="proj">
-          <div class="laser">
-              <h2>HASURA API</h2>
-            <br/>
-
-            <div class="textOverImage"
-            style="background-image:url(proj/clone.jpg)"
-            data-text="HASURA API Developer: Created a clone of Twitter and Uber using React-Native to test Hasura's API functions.">
+              <br>
+              <div class="textOverImage"
+                style="background-image:url(proj/alu.jpg)"
+                data-text="SRM University Alumini Management Portal : Created Alumini Management Portal for SRM University using PHP and Database Management System (DBMS)">
+              </div>
             </div>
           </div>
-        </div>
-
-
-        </div>
-        </div>
-
-      <!-- <mainFour> -->
-        <div class="achievements" id="achievements">
-        <div class="achievementsdiv">
-          <div class="mainfourtitle">
-              <br/><br/>
-            <h1>ACHIEVEMENTS</h1>
+          <div class="proj">
+            <div class="laser">
+              <h2>HASURA API</h2>
+              <br>
+              <div class="textOverImage"
+                style="background-image:url(proj/clone.jpg)"
+                data-text="HASURA API Developer: Created a clone of Twitter and Uber using React-Native to test Hasura's API functions.">
+              </div>
+            </div>
           </div>
-          <br/>
-        <ul class="achievements">
-          <li><span class="name">Won 2nd place in European Hackathon '24 in Paris, France</span></li>
-          <li><span class="name">Presented futurestic Transport iporvements to French Transport Minister at the Minisrty, Paris</span></li>
-          <li><span class="name">Obtained 3rd rank in the department of AI and Cybersecurity at ESIEE Paris (Gustav Eiffel University)</span></li>
-          <li><span class="name">Completed IBM Certification on Cyber Fundamentals, Enterprise Security, Threat Intelligence</span></li>
-          <li><span class="name">Successfully completed exchange programme at Deakin University, AUSTRALIA from ESIEE Paris</span></li>
-          <li><span class="name">Got promoted to LEAD of Optimisation at Pivotree (Full-Time) under 8 months with salary hike</span></li>
-          <li><span class="name">Worked with experts of almost 30 different nationalities; Lead a team of 12; Worekd in a team of 20. </span></li>
-          <li><span class="name">Obtained Copyrights © to two novelty applications developed</span></li>
-          <li><span class="name">Received the HALL OF FAME Award at SRM University</span></li>
-          <li><span class="name">Ranked as the 3rd best performing student in the University at SRM University</span></li>
-          <li><span class="name">Best Participant in National University of SINGAPORE Hackathon '20 (NUS, World top 10 University)</span></li>
-          <li><span class="name">Won 1st place in Internal Smart India Hackathon '20' at SRM</span></li>
-          <li><span class="name">Published Research paper in JETIR Journal and RCICD Confrence. Google "Shakthivel MURUGAVEL JETIR"</span></li>
-          <li><span class="name">Received scholarship to study one semester at Teesside University, United Kingdom</span></li>
-          <li><span class="name">Completed English Proficiency course at Teesside university, UK</span></li>
-          <li><span class="name">Completed French B2 course at ESIEE Paris, France</span></li>
-          <li><span class="name">Completed MOOC online course on Modern App Development, Blockchain & Cryptocurrency and Artificial Intelligence</span></li>
-          <li><span class="name">Workshops on Augmented Reality, Game Development, Animation, IOT, Arduino workshops conducted by Unity and IIT Bombay</span></li>
-          <li><span class="name">Won 3rd place in Local Hack Day '19 Hackathon conducted by MLH</span></li>
-          <li><span class="name">Awarded outstanding performer certificate in Presentation skills at SRM</span></li>
-          <li><span class="name">Won "Best of the Best" award on web designing competition at Computer Carnival</span></li>
-          <li><span class="name">Constructed Laser assisted walking stick for National Science Day '16</span></li>
-          <li><span class="name">Hosted Technical Ubertech events at SRM and conducted Impressionz '15 at National Public School </span></li>
-          <li><span class="name">First React-Native internship task (Uber Clone) was developed and hosted at Hasura platform </span></li>
-          <li><span class="name">One of the finalist of 2013 State-level Badminton tournament (Singles)</span></li>
-          <li><span class="name">Personal Accomplishments :</span></li>        
-          <li><span class="name">Participated in a Cycling marathon and travelled for 30 Km</span></li>
-          <li><span class="name">Bunjee jumped a 300ft bridge in the UK</span></li>
-          <li><span class="name">Learnt to SKI in 5 days without school and completed all Green and 1 Blue track in France</span></li> 
-          <li><span class="name">Piloted a training Aircraft "Cessna 172"; Surfed in the Australian Beach</span></li> 
-        </ul>
         </div>
       </div>
-      
-
+      <!-- <mainFour> -->
+      <div class="achievements" id="achievements">
+        <div class="achievementsdiv">
+          <div class="mainfourtitle">
+            <br><br>
+            <h1>ACHIEVEMENTS</h1>
+          </div>
+          <br>
+          <ul class="achievements">
+            <li><span class="name">Won 2nd place in European Hackathon '24 in Paris, France</span></li>
+            <li><span class="name">Presented futurestic Transport iporvements to French Transport Minister at the Minisrty, Paris</span></li>
+            <li><span class="name">Obtained 3rd rank in the department of AI and Cybersecurity at ESIEE Paris (Gustav Eiffel University)</span></li>
+            <li><span class="name">Completed IBM Certification on Cyber Fundamentals, Enterprise Security, Threat Intelligence</span></li>
+            <li><span class="name">Successfully completed exchange programme at Deakin University, AUSTRALIA from ESIEE Paris</span></li>
+            <li><span class="name">Got promoted to LEAD of Optimisation at Pivotree (Full-Time) under 8 months with salary hike</span></li>
+            <li><span class="name">Worked with experts of almost 30 different nationalities; Lead a team of 12; Worekd in a team of 20. </span></li>
+            <li><span class="name">Obtained Copyrights © to two novelty applications developed</span></li>
+            <li><span class="name">Received the HALL OF FAME Award at SRM University</span></li>
+            <li><span class="name">Ranked as the 3rd best performing student in the University at SRM University</span></li>
+            <li><span class="name">Best Participant in National University of SINGAPORE Hackathon '20 (NUS, World top 10 University)</span></li>
+            <li><span class="name">Won 1st place in Internal Smart India Hackathon '20' at SRM</span></li>
+            <li><span class="name">Published Research paper in JETIR Journal and RCICD Confrence. Google "Shakthivel MURUGAVEL JETIR"</span></li>
+            <li><span class="name">Received scholarship to study one semester at Teesside University, United Kingdom</span></li>
+            <li><span class="name">Completed English Proficiency course at Teesside university, UK</span></li>
+            <li><span class="name">Completed French B2 course at ESIEE Paris, France</span></li>
+            <li><span class="name">Completed MOOC online course on Modern App Development, Blockchain & Cryptocurrency and Artificial Intelligence</span></li>
+            <li><span class="name">Workshops on Augmented Reality, Game Development, Animation, IOT, Arduino workshops conducted by Unity and IIT Bombay</span></li>
+            <li><span class="name">Won 3rd place in Local Hack Day '19 Hackathon conducted by MLH</span></li>
+            <li><span class="name">Awarded outstanding performer certificate in Presentation skills at SRM</span></li>
+            <li><span class="name">Won "Best of the Best" award on web designing competition at Computer Carnival</span></li>
+            <li><span class="name">Constructed Laser assisted walking stick for National Science Day '16</span></li>
+            <li><span class="name">Hosted Technical Ubertech events at SRM and conducted Impressionz '15 at National Public School </span></li>
+            <li><span class="name">First React-Native internship task (Uber Clone) was developed and hosted at Hasura platform </span></li>
+            <li><span class="name">One of the finalist of 2013 State-level Badminton tournament (Singles)</span></li>
+            <li><span class="name">Personal Accomplishments :</span></li>
+            <li><span class="name">Participated in a Cycling marathon and travelled for 30 Km</span></li>
+            <li><span class="name">Bunjee jumped a 300ft bridge in the UK</span></li>
+            <li><span class="name">Learnt to Ski in 5 days without school and completed all Green and 1 Blue track in France</span></li>
+            <li><span class="name">Piloted a training Aircraft "Cessna 172"; Surfed in the Australian Beach</span></li>
+          </ul>
+        </div>
+      </div>
       <!-- <mainfive> -->
-        <div class="wholemobile" id="wholemobile">
+      <div class="wholemobile" id="wholemobile">
         <div class="mobile">
           <div class="top"></div>
           <div class="bottom"></div>
           <div class="screen">
-            <img src="./home/6.jpg" width="270px" height="480px">
+            <img src="./home/6.jpg" width="270" height="480" alt="phone bg">
             <h2 class="time">11:11<span>PM</span><br><span>28th Oct, 2024</span></h2>
-              <ul>
-                <div class="popup" onclick="myFunction()"><li><i class="fa fa-phone" aria-hidden="true"></i></li>
-                  <span class="popuptext" id="myPopup">+33 0749944301 </span>
-                </div>
-                <li><a href="https://wa.me/330749944301" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=shakthivel.murugavel@edu.esiee.fr" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/shakthi1109" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/shakthi11/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="https://devfolio.co/@shakthi1109" target="_blank"><i class="fa fa-chrome" aria-hidden="true"></i></a></li>
-              </ul>
+            <ul>
+              <div class="popup" onclick="myFunction()">
+                <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                <span class="popuptext" id="myPopup">+33 0749944301 </span>
+              </div>
               
-              
+              <li><a href="https://wa.me/330749944301" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+              <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=shakthivel.murugavel@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/shakthi1109" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/shakthi11/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://devfolio.co/@shakthi1109" target="_blank"><i class="fa fa-chrome" aria-hidden="true"></i></a></li>
+            </ul>
           </div>
-
           <script>
-          // When the user clicks on <div>, open the popup
-          function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-          }
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
           </script>
         </div>
-      
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script type="text/javascript">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
           $(document).ready(function(){
             $('.bottom').click(function(){
               $('.screen').toggleClass('active')
@@ -480,61 +416,52 @@
           })
         </script>
       </div>
-
-      
       <!-- <mainsix> -->
-        <div class="message">
-          <p>Message from the Developer: <br>
-            Thanks very much for your time. Zoom the above mobile and click home button to view my contact details. Check my resume or linkedin for latest info. <a href="#mainOne">Scroll up</a>
-          <br>Copyrights © reserved by Shakthivel Murugavel™</p>
-
-        </div>
-    
+      <div class="message">
+        <p>Message from the Developer: <br>
+          Thanks very much for your time. Zoom the above mobile and click home button to view my contact details. Check my resume or linkedin for latest info. <a href="#mainOne">Scroll up</a>
+          <br>Copyrights © reserved by Shakthi™
+        </p>
+      </div>
     </main>
-
-
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
-        // Select all links with hashes
-        $('a[href*="#"]')
-          // Remove links that don't actually link to anything
-          .not('[href="#"]')
-          .not('[href="#0"]')
-          .click(function(event) {
-            // On-page links
-            if (
-              location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-              &&
-              location.hostname == this.hostname
-            ) {
-              // Figure out element to scroll to
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              // Does a scroll target exist?
-              if (target.length) {
-                // Only prevent default if animation is actually gonna happen
-                event.preventDefault();
-                $('html, body').animate({
-                  scrollTop: target.offset().top
-                }, 1000, function() {
-                  // Callback after animation
-                  // Must change focus!
-                  var $target = $(target);
-                  $target.focus();
-                  if ($target.is(":focus")) { // Checking if the target was focused
-                    return false;
-                  } else {
-                    //$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                    $target.focus(); // Set focus again
-                  };
-                });
-              }
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+            &&
+            location.hostname == this.hostname
+          ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000, function() {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                  return false;
+                } else {
+                  //$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                };
+              });
             }
-          });
-      </script>
-      
-      <script language="Javascript">
-      
-      </script>
+          }
+        });
+    </script>
   </body>
 </html>
