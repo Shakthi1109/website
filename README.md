@@ -1,3 +1,5 @@
-# Shakthi Personal Website
+# Shakthi Portfolio Website
 
-Visit: www.msvel.tech or https://shakthi1109.github.io/website/
+Visit: https://shakthi1109.github.io/website/ (or) www.msvel.tech (domain not available)
+
+

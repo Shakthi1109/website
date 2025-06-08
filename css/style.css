@@ -29,9 +29,9 @@ body::after {
 }
 .internships h1 {
     color: #000;
+    text-align: center;
     font-size: 3em;
     font-style: italic;
-    padding-left: 35%;
     padding-top: 13%;
 }
 .card {
@@ -258,6 +258,7 @@ ul.header li a:hover {
 .title h1 {
     color: #fff;
     font-size: 70px;
+    text-align: center;
 }
 .align {
     display: grid;
@@ -324,6 +325,7 @@ ul.header li a:hover {
     font-style: italic;
     font-family: Maitree;
     color: #000;
+    text-align: center;
 }
 .proj h2 {
     font-size: 2em;
@@ -625,6 +627,7 @@ h2 span {
 .mainThree .proj h1 {
     font-size: 3em;
     font-style: italic;
+    text-align: center;
 }
 .mainThree .proj h2 {
     font-size: 2em;
@@ -717,9 +720,6 @@ h2 span {
     .achievementsdiv {
         height: 120vh !important;
     }
-    .internships h1 {
-        padding-left: 20%;
-    }
     .alignProj {
         justify-items: center !important;
         padding-left: 5%;
@@ -784,8 +784,5 @@ h2 span {
     }
     .mainTwo {
         height: 420vh;
-    }
-    .internships h1 {
-        padding-left: 20%;
     }
 }
