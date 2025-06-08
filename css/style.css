@@ -355,7 +355,8 @@ ul.header li a:hover {
     margin: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-    height: 290vh;
+    min-height: 300vh;
+    height: fit-content;
 }
 .mainfourtitle h1 {
     padding-top: 4%;
@@ -724,38 +725,7 @@ h2 span {
         justify-items: center !important;
         padding-left: 5%;
     }
-    .button {
-        padding: 15px 30px;
-        /* Increase padding */
-        font-size: 18px !important;
-        font-weight: bolder !important;
-    }
-    .buttonDrop {
-        padding: 15px 30px;
-        /* Increase padding */
-        font-size: 18px !important;
-        font-weight: bolder !important;
-    }
-    .buttonDrop:hover {
-        padding: 15px 30px;
-        /* Increase padding */
-        font-size: 18px !important;
-        font-weight: bolder !important;
-    }
-    /* Dropdown styling */
-    .dropdown-content {
-        font-size: 18px !important;
-        font-weight: bolder !important;
-        padding: 15px 19px;
-        padding-top: 20px;
-        padding-bottom: 20px !important;
-    }
-    .dropdown-content a {
-        font-size: 18px !important;
-        font-weight: bolder !important;
-        padding-top: 20px !important;
-        padding-bottom: 20px !important;
-    }
+  
     .logo img {
         width: 200px;
     }
@@ -766,7 +736,8 @@ h2 span {
         overflow: hidden;
     }
     .mainThree {
-        height: 880vh;
+        min-height: 360vh;
+        height: fit-content;
     }
     .alignProj {
         display: grid;
@@ -775,7 +746,8 @@ h2 span {
         justify-items: center !important;
     }
     .achievementsdiv {
-        height: 370vh;
+        min-height: 130vh;
+        height: fit-content;
     }
     .align {
         display: grid;
@@ -783,6 +755,15 @@ h2 span {
         padding-left: 2%;
     }
     .mainTwo {
-        height: 420vh;
+        min-height: 150vh;
+        height: fit-content;
+    }
+
+    .button {
+        font-size: 1.3rem;
+        padding: 14px 28px;
+        min-width: fit-content;
+        margin-right: 30px;
+        text-align: center;
     }
 }
